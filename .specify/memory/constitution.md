@@ -1,55 +1,52 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial creation) → 1.0.0
+Modified principles: N/A (new principles created)
+Added sections: All sections (initial constitution)
+Removed sections: N/A
+Templates requiring updates:
+  - .specify/templates/plan-template.md ✅ updated
+  - .specify/templates/spec-template.md ✅ updated
+  - .specify/templates/tasks-template.md ✅ updated
+  - .specify/templates/commands/*.md ⚠ pending review
+  - README.md ⚠ pending review
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Embodied Intelligence First
+Every concept and technique must connect to physical embodiment; Theory without practical application to robots is insufficient; Clear connection required between digital AI concepts and their physical implementation.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Simulation-to-Reality Transfer
+All implementations must be designed with real-world deployment in mind; Code and experiments must transition from simulation environments (Gazebo/Unity) to actual hardware; Bridging the sim-to-real gap is a core competency.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Modular Architecture (NON-NEGOTIABLE)
+System components must be independently testable and reusable; Each module (ROS 2 nodes, perception, control, planning) must have clear interfaces; Separation of concerns ensures maintainability and extensibility.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Cross-Platform Integration
+Systems must integrate across ROS 2, NVIDIA Isaac, and Unity/Gazebo environments; APIs and data structures must be compatible across platforms; Consistent interfaces enable seamless workflow from perception to action.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Vision-Language-Action Foundation
+All intelligent behaviors must integrate visual perception, language understanding, and physical action; Systems must demonstrate grounding of language commands in physical actions; End-to-end trainable architectures preferred where applicable.
 
-### [PRINCIPLE_6_NAME]
+### VI. Developer Accessibility
+Content must be approachable for developers transitioning from digital AI to embodied systems; Practical examples with minimal setup overhead; Clear progression from basic concepts to advanced applications.
 
+## Educational Standards
 
-[PRINCIPLE__DESCRIPTION]
+All modules must include hands-on exercises with real robotics frameworks; Code examples must be tested in both simulation and hardware when possible; Assessment criteria must measure both theoretical understanding and practical implementation skills.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technical Requirements
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+Technology stack: ROS 2 (Humble Hawksbill), Gazebo Garden/Unity 2023.x, NVIDIA Isaac ROS, Python 3.10+/C++; Performance targets: Real-time control at 50Hz minimum for basic locomotion; Safety constraints: All simulation and hardware code must include safety limits and emergency stops.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+All code must follow ROS 2 and NVIDIA Isaac best practices; Testing includes unit tests, integration tests in simulation, and hardware validation; Peer review must verify both correctness and pedagogical clarity; Documentation must include setup guides, API references, and troubleshooting tips.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all content development for the Physical AI & Humanoid Robotics course; All module content, code examples, and exercises must comply with these principles; Amendments require explicit approval from course architects and must maintain the core mission of bridging digital AI to embodied intelligence.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-20 | **Last Amended**: 2025-12-20

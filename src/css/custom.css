@@ -1,0 +1,308 @@
+/* Enhanced custom styles for AI Robotics Book */
+
+:root {
+  /* Updated color palette with more vibrant colors */
+  --ifm-color-primary: #2a6f97; /* Deep blue representing technology */
+  --ifm-color-primary-dark: #245f83; /* Darker blue */
+  --ifm-color-primary-darker: #215776; /* Even darker blue */
+  --ifm-color-primary-darkest: #1a4660; /* Darkest blue */
+  --ifm-color-primary-light: #3a8fc7; /* Lighter blue */
+  --ifm-color-primary-lighter: #4ca5d0; /* Even lighter blue */
+  --ifm-color-primary-lightest: #6fb6db; /* Lightest blue */
+  --ifm-code-font-size: 95%;
+
+  /* Additional custom colors */
+  --ai-blue: #2a6f97;
+  --ai-blue-light: #3a8fc7;
+  --ai-green: #2ecc71;
+  --ai-orange: #e67e22;
+  --ai-purple: #9b59b6;
+  --ai-gray: #ecf0f1;
+  --ai-dark: #2c3e50;
+
+  /* Card and shadow effects */
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --card-hover-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+
+  /* Spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-spacing-vertical: 1.5rem;
+}
+
+/* Dark theme overrides */
+html[data-theme='dark'] {
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #1e1e1e;
+  --ifm-color-content: #e0e0e0;
+  --ifm-color-content-secondary: #b0b0b0;
+  --ifm-navbar-background-color: #1a1a1a;
+  --ifm-footer-background-color: #1a1a1a;
+}
+
+/* Enhanced navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Enhanced hero banner */
+.hero {
+  background: linear-gradient(135deg, var(--ai-blue) 0%, #1a3d6d 100%);
+  color: white;
+  padding: 4rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(255,255,255,0.1) 0%, transparent 50%),
+              radial-gradient(circle at bottom left, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* Enhanced buttons */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-light);
+  border-color: var(--ifm-color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced cards for modules */
+.card {
+  border: none;
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: var(--card-hover-shadow);
+  transform: translateY(-5px);
+}
+
+.card__header {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.75rem;
+}
+
+/* Enhanced code blocks */
+.code-block {
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Enhanced tables */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  margin: 1rem 0;
+}
+
+table {
+  margin: 0 !important;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+th {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Enhanced footer */
+.footer {
+  background-color: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* Footer text color for both light and dark modes */
+html[data-theme='light'] .footer {
+  color: #2c3e50; /* Dark text for light mode */
+  background-color: #f8f9fa; /* Light background for light mode */
+}
+
+html[data-theme='dark'] .footer {
+  color: #e0e0e0; /* Light text for dark mode */
+  background-color: #1a1a1a; /* Dark background for dark mode */
+}
+
+/* Footer link colors */
+html[data-theme='light'] .footer a {
+  color: #2a6f97; /* Blue links for light mode */
+}
+
+html[data-theme='light'] .footer a:hover {
+  color: #3a8fc7; /* Lighter blue on hover in light mode */
+}
+
+html[data-theme='dark'] .footer a {
+  color: #6fb6db; /* Light blue links for dark mode */
+}
+
+html[data-theme='dark'] .footer a:hover {
+  color: #a0d6f9; /* Even lighter blue on hover in dark mode */
+}
+
+/* Footer title colors */
+html[data-theme='light'] .footer h4,
+html[data-theme='light'] .footer__title,
+html[data-theme='light'] .footer__item:first-child {
+  color: #2c3e50; /* Dark title for light mode */
+}
+
+html[data-theme='dark'] .footer h4,
+html[data-theme='dark'] .footer__title,
+html[data-theme='dark'] .footer__item:first-child {
+  color: #ffffff; /* White title for dark mode */
+}
+
+/* Footer item text colors */
+html[data-theme='light'] .footer__item,
+html[data-theme='light'] .footer__link {
+  color: #2c3e50; /* Dark text for light mode */
+}
+
+html[data-theme='dark'] .footer__item,
+html[data-theme='dark'] .footer__link {
+  color: #e0e0e0; /* Light text for dark mode */
+}
+
+/* Enhanced sidebar */
+.menu__list-item-collapsible .menu__link--active,
+.menu__list-item-collapsible .menu__link--active:hover {
+  background-color: rgba(42, 111, 151, 0.1);
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+/* Enhanced headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+}
+
+/* Enhanced links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Enhanced alert boxes */
+.alert {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* Enhanced feature sections */
+.features-section {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-emphasis-0);
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  background-color: var(--ifm-background-surface-color);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-hover-shadow);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+/* Enhanced code line highlighting */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .hero {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Animation for interactive elements */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+}

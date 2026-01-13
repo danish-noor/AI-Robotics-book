@@ -1,0 +1,182 @@
+openapi: 3.0.0
+info:
+  title: AI Robotics Learning Platform API
+  description: API for the AI Robotics Book Curriculum learning management system
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+    description: Development server
+
+paths:
+  /modules:
+    get:
+      summary: Get all learning modules
+      description: Retrieve a list of all curriculum modules
+      responses:
+        '200':
+          description: List of modules
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LearningModule'
+
+  /modules/{moduleId}:
+    get:
+      summary: Get a specific module
+      description: Retrieve details of a specific learning module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module to retrieve
+      responses:
+        '200':
+          description: Module details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LearningModule'
+        '404':
+          description: Module not found
+
+  /modules/{moduleId}/exercises:
+    get:
+      summary: Get exercises for a module
+      description: Retrieve all exercises for a specific module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module
+      responses:
+        '200':
+          description: List of exercises
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Exercise'
+
+  /exercises/{exerciseId}/submit:
+    post:
+      summary: Submit exercise solution
+      description: Submit a solution for an exercise
+      parameters:
+        - name: exerciseId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the exercise
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                solution:
+                  type: string
+                studentId:
+                  type: string
+      responses:
+        '200':
+          description: Solution submitted and evaluated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubmissionResult'
+
+components:
+  schemas:
+    LearningModule:
+      type: object
+      required:
+        - id
+        - title
+        - description
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the module
+        title:
+          type: string
+          description: Display title of the module
+        description:
+          type: string
+          description: Brief overview of the module
+        objectives:
+          type: array
+          items:
+            type: string
+          description: Learning objectives for the module
+        prerequisites:
+          type: array
+          items:
+            type: string
+          description: Required knowledge before starting
+        duration:
+          type: number
+          description: Estimated duration in hours
+        contentPath:
+          type: string
+          description: Path to documentation content
+
+    Exercise:
+      type: object
+      required:
+        - id
+        - title
+        - moduleId
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the exercise
+        moduleId:
+          type: string
+          description: Reference to the parent module
+        title:
+          type: string
+          description: Display title of the exercise
+        description:
+          type: string
+          description: Detailed description of the exercise
+        difficulty:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          description: Difficulty level of the exercise
+        estimatedTime:
+          type: number
+          description: Estimated completion time in minutes
+        files:
+          type: array
+          items:
+            type: string
+          description: Required files or paths for the exercise
+
+    SubmissionResult:
+      type: object
+      required:
+        - success
+        - score
+        - feedback
+      properties:
+        success:
+          type: boolean
+          description: Whether the submission was successful
+        score:
+          type: number
+          description: Score achieved (0-100)
+        feedback:
+          type: string
+          description: Feedback on the submission
+        details:
+          type: object
+          description: Additional evaluation details

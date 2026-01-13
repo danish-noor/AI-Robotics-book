@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.10+ for ROS 2 integration, JavaScript/TypeScript for Docusaurus documentation + ROS 2 Humble Hawksbill, Gazebo Garden, NVIDIA Isaac ROS packages, Docusaurus, OpenAI Whisper, Open-source LLMs (001-ai-book)
+- File-based (Markdown documentation, URDF models, configuration files) (001-ai-book)
+
+## Recent Changes
+- 001-ai-book: Added Python 3.10+ for ROS 2 integration, JavaScript/TypeScript for Docusaurus documentation + ROS 2 Humble Hawksbill, Gazebo Garden, NVIDIA Isaac ROS packages, Docusaurus, OpenAI Whisper, Open-source LLMs

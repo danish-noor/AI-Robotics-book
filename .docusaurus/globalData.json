@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ai-book/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ai-book/docs",
+          "mainDocId": "capstone/index",
+          "docs": [
+            {
+              "id": "capstone/index",
+              "path": "/ai-book/docs/capstone/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/ai-book/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/index",
+              "path": "/ai-book/docs/module-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/index",
+              "path": "/ai-book/docs/module-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/index",
+              "path": "/ai-book/docs/module-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/index",
+              "path": "/ai-book/docs/module-4/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ai-book/docs/capstone/",
+                "label": "Autonomous Humanoid Robot Capstone Project"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

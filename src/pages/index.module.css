@@ -1,0 +1,52 @@
+/* Specific styles for the homepage */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.features {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-emphasis-0);
+}
+
+.features h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.features p {
+  color: var(--ifm-color-content-secondary);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
