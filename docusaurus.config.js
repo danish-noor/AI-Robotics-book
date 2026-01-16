@@ -18,6 +18,9 @@ const config = {
   projectName: 'AI-Robotics-book', // Usually your repo name.
   trailingSlash: false,
 
+  // GitHub Pages configuration
+  deploymentBranch: 'gh-pages',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
