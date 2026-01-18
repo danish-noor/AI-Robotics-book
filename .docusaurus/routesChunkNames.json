@@ -1,95 +1,89 @@
 {
-  "/ai-book/__docusaurus/debug-c7e": {
+  "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ai-book/__docusaurus/debug/config-ba6": {
+  "/__docusaurus/debug/config-5ba": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ai-book/__docusaurus/debug/content-6fa": {
+  "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "__props": "__props---ai-book-docusaurus-debug-content-3-be-a72"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
-  "/ai-book/__docusaurus/debug/globalData-2a2": {
+  "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ai-book/__docusaurus/debug/metadata-8ba": {
+  "/__docusaurus/debug/metadata-156": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ai-book/__docusaurus/debug/registry-099": {
+  "/__docusaurus/debug/registry-88c": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ai-book/__docusaurus/debug/routes-d85": {
+  "/__docusaurus/debug/routes-000": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---ai-book-docusaurus-debugb-38-62e"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ai-book/search-6a3": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
-    "__context": {
-      "plugin": "plugin---ai-book-searchc-14-a18"
-    }
-  },
-  "/ai-book/docs-f78": {
+  "/docs-2b9": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---ai-book-docsaba-e55"
+      "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/ai-book/docs-9ee": {
+  "/docs-98a": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---ai-book-docs-517-620"
+    "__props": "__props---docs-005-788"
   },
-  "/ai-book/docs-e49": {
+  "/docs-7f3": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/ai-book/docs/capstone/-d0e": {
+  "/docs/capstone-69d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-docs-capstone-cd-3-d7a"
+    "content": "content---docs-capstonecd-3-7a4"
   },
-  "/ai-book/docs/intro-966": {
+  "/docs/intro-5ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-docs-intro-0-e-3-b64"
+    "content": "content---docs-intro-0-e-3-be1"
   },
-  "/ai-book/docs/module-1/-09c": {
+  "/docs/module-1-b56": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-docs-module-1-512-1e4"
+    "content": "content---docs-module-1512-a85"
   },
-  "/ai-book/docs/module-2/-507": {
+  "/docs/module-2-f04": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-docs-module-2-5-ad-41b"
+    "content": "content---docs-module-25-ad-287"
   },
-  "/ai-book/docs/module-3/-87a": {
+  "/docs/module-3-115": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-docs-module-3-9-b-4-1d7"
+    "content": "content---docs-module-39-b-4-496"
   },
-  "/ai-book/docs/module-4/-da0": {
+  "/docs/module-4-7af": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-docs-module-4-c-7-d-19e"
+    "content": "content---docs-module-4-c-7-d-90f"
   },
-  "/ai-book/-9e1": {
+  "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---ai-book-a-74-03d"
+      "plugin": "plugin---a-74-9d6"
     },
-    "config": "config---ai-book-5-e-9-11a"
+    "config": "config---5-e-9-4f3"
   }
 }

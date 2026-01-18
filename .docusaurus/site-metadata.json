@@ -27,9 +27,9 @@
       "name": "@docusaurus/theme-classic",
       "version": "3.9.2"
     },
-    "docusaurus-theme-search-algolia": {
+    "docusaurus-plugin-client-redirects": {
       "type": "package",
-      "name": "@docusaurus/theme-search-algolia",
+      "name": "@docusaurus/plugin-client-redirects",
       "version": "3.9.2"
     }
   }

@@ -7,10 +7,11 @@ export default {
   "title": "AI Robotics Book",
   "tagline": "A Comprehensive Curriculum on AI Robotics",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/ai-book/",
-  "organizationName": "facebook",
-  "projectName": "ai-book",
+  "url": "https://danish-noor.github.io",
+  "baseUrl": "/",
+  "organizationName": "danish-noor",
+  "projectName": "AI-Robotics-book",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -26,12 +27,57 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showLastUpdateTime": true,
+          "editCurrentVersion": true
         },
         "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        "redirects": [
+          {
+            "from": [
+              "/docs",
+              "/welcome"
+            ],
+            "to": "/docs/intro"
+          }
+        ]
+      }
+    ],
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        "debug": false,
+        "offlineModeActivationStrategies": [
+          "appInstalled",
+          "standalone",
+          "queryString"
+        ],
+        "pwaHead": [
+          {
+            "tagName": "link",
+            "rel": "icon",
+            "href": "/img/pwa/icon-192x192.png"
+          },
+          {
+            "tagName": "link",
+            "rel": "manifest",
+            "href": "/manifest.json"
+          },
+          {
+            "tagName": "meta",
+            "name": "theme-color",
+            "content": "#2a6f97"
+          }
+        ]
       }
     ]
   ],
@@ -47,22 +93,13 @@ export default {
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Curriculum"
+          "label": "Curriculum",
+          "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
-        }
-      ],
-      "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Modules",
+          "type": "dropdown",
+          "label": "Modules",
+          "position": "left",
           "items": [
             {
               "label": "Module 1: ROS 2",
@@ -83,33 +120,21 @@ export default {
           ]
         },
         {
-          "title": "Resources",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            },
-            {
-              "label": "Documentation",
-              "to": "/docs/intro"
-            }
-          ]
+          "type": "search",
+          "position": "right"
         },
         {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            }
-          ]
+          "href": "https://github.com/danish-noor/AI-Robotics-book",
+          "label": "GitHub",
+          "position": "right"
         }
       ],
-      "copyright": "Copyright © 2026 AI Robotics Book. Built by DANISH NOOR."
+      "hideOnScroll": false
+    },
+    "footer": {
+      "style": "dark",
+      "copyright": "Copyright © 2026 AI Robotics Book. Built by Danish Noor.",
+      "links": []
     },
     "prism": {
       "theme": {
@@ -315,18 +340,10 @@ export default {
         }
       ]
     },
-    "algolia": {
-      "appId": "YOUR_APP_ID",
-      "apiKey": "YOUR_SEARCH_API_KEY",
-      "indexName": "YOUR_INDEX_NAME",
-      "contextualSearch": true,
-      "searchPagePath": "search",
-      "searchParameters": {}
-    },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "respectPrefersColorScheme": true,
+      "disableSwitch": false
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -374,7 +391,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

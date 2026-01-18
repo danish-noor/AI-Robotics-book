@@ -3,90 +3,85 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ai-book/__docusaurus/debug',
-    component: ComponentCreator('/ai-book/__docusaurus/debug', 'c7e'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/ai-book/__docusaurus/debug/config',
-    component: ComponentCreator('/ai-book/__docusaurus/debug/config', 'ba6'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/ai-book/__docusaurus/debug/content',
-    component: ComponentCreator('/ai-book/__docusaurus/debug/content', '6fa'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/ai-book/__docusaurus/debug/globalData',
-    component: ComponentCreator('/ai-book/__docusaurus/debug/globalData', '2a2'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/ai-book/__docusaurus/debug/metadata',
-    component: ComponentCreator('/ai-book/__docusaurus/debug/metadata', '8ba'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/ai-book/__docusaurus/debug/registry',
-    component: ComponentCreator('/ai-book/__docusaurus/debug/registry', '099'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/ai-book/__docusaurus/debug/routes',
-    component: ComponentCreator('/ai-book/__docusaurus/debug/routes', 'd85'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/ai-book/search',
-    component: ComponentCreator('/ai-book/search', '6a3'),
-    exact: true
-  },
-  {
-    path: '/ai-book/docs',
-    component: ComponentCreator('/ai-book/docs', 'f78'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '2b9'),
     routes: [
       {
-        path: '/ai-book/docs',
-        component: ComponentCreator('/ai-book/docs', '9ee'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '98a'),
         routes: [
           {
-            path: '/ai-book/docs',
-            component: ComponentCreator('/ai-book/docs', 'e49'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '7f3'),
             routes: [
               {
-                path: '/ai-book/docs/capstone/',
-                component: ComponentCreator('/ai-book/docs/capstone/', 'd0e'),
+                path: '/docs/capstone',
+                component: ComponentCreator('/docs/capstone', '69d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ai-book/docs/intro',
-                component: ComponentCreator('/ai-book/docs/intro', '966'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '5ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ai-book/docs/module-1/',
-                component: ComponentCreator('/ai-book/docs/module-1/', '09c'),
+                path: '/docs/module-1',
+                component: ComponentCreator('/docs/module-1', 'b56'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ai-book/docs/module-2/',
-                component: ComponentCreator('/ai-book/docs/module-2/', '507'),
+                path: '/docs/module-2',
+                component: ComponentCreator('/docs/module-2', 'f04'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ai-book/docs/module-3/',
-                component: ComponentCreator('/ai-book/docs/module-3/', '87a'),
+                path: '/docs/module-3',
+                component: ComponentCreator('/docs/module-3', '115'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ai-book/docs/module-4/',
-                component: ComponentCreator('/ai-book/docs/module-4/', 'da0'),
+                path: '/docs/module-4',
+                component: ComponentCreator('/docs/module-4', '7af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -97,8 +92,8 @@ export default [
     ]
   },
   {
-    path: '/ai-book/',
-    component: ComponentCreator('/ai-book/', '9e1'),
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {
