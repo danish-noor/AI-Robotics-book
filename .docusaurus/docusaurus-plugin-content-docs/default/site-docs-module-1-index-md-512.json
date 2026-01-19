@@ -5,20 +5,20 @@
   "source": "@site/docs/module-1/index.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/",
-  "permalink": "/docs/module-1/",
+  "permalink": "/AI-Robotics-book/docs/module-1/",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedAt": 1768307371000,
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Why Physical AI Matters",
-    "permalink": "/docs/intro"
+    "permalink": "/AI-Robotics-book/docs/intro"
   },
   "next": {
     "title": "Simulation & Digital Twins",
-    "permalink": "/docs/module-2/"
+    "permalink": "/AI-Robotics-book/docs/module-2/"
   }
 }

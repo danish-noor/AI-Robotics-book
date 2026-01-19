@@ -1,89 +1,46 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/AI-Robotics-book/docs-181": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "aba21aa0"
     }
   },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
+  "/AI-Robotics-book/docs-d11": {
+    "__comp": "a7bd4aaa",
+    "__props": "9ea652b8"
   },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
+  "/AI-Robotics-book/docs-314": {
+    "__comp": "a94703ab"
+  },
+  "/AI-Robotics-book/docs/capstone-a8d": {
+    "__comp": "17896441",
+    "content": "cd369fc1"
+  },
+  "/AI-Robotics-book/docs/intro-52e": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/AI-Robotics-book/docs/module-1-e23": {
+    "__comp": "17896441",
+    "content": "51279860"
+  },
+  "/AI-Robotics-book/docs/module-2-bce": {
+    "__comp": "17896441",
+    "content": "5ad232c4"
+  },
+  "/AI-Robotics-book/docs/module-3-1de": {
+    "__comp": "17896441",
+    "content": "9b44c66f"
+  },
+  "/AI-Robotics-book/docs/module-4-784": {
+    "__comp": "17896441",
+    "content": "c7dfbc38"
+  },
+  "/AI-Robotics-book/-dac": {
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "a7456010"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/docs-2b9": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
-    "__context": {
-      "plugin": "plugin---docsaba-d7c"
-    }
-  },
-  "/docs-98a": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
-  },
-  "/docs-7f3": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/docs/capstone-69d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstonecd-3-7a4"
-  },
-  "/docs/intro-5ac": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/module-1-b56": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1512-a85"
-  },
-  "/docs/module-2-f04": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-25-ad-287"
-  },
-  "/docs/module-3-115": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-39-b-4-496"
-  },
-  "/docs/module-4-7af": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-c-7-d-90f"
-  },
-  "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
-    "__context": {
-      "plugin": "plugin---a-74-9d6"
-    },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

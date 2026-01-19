@@ -8,7 +8,7 @@ export default {
   "tagline": "A Comprehensive Curriculum on AI Robotics",
   "favicon": "img/favicon.ico",
   "url": "https://danish-noor.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/AI-Robotics-book/",
   "organizationName": "danish-noor",
   "projectName": "AI-Robotics-book",
   "trailingSlash": false,

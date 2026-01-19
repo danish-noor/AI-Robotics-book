@@ -12,9 +12,9 @@
       "name": "@docusaurus/plugin-content-pages",
       "version": "3.9.2"
     },
-    "docusaurus-plugin-debug": {
+    "docusaurus-plugin-sitemap": {
       "type": "package",
-      "name": "@docusaurus/plugin-debug",
+      "name": "@docusaurus/plugin-sitemap",
       "version": "3.9.2"
     },
     "docusaurus-plugin-svgr": {
@@ -30,6 +30,11 @@
     "docusaurus-plugin-client-redirects": {
       "type": "package",
       "name": "@docusaurus/plugin-client-redirects",
+      "version": "3.9.2"
+    },
+    "docusaurus-plugin-pwa": {
+      "type": "package",
+      "name": "@docusaurus/plugin-pwa",
       "version": "3.9.2"
     }
   }

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#ffffff"/>
+
+  <!-- Robot head with AI elements -->
+  <rect x="100" y="50" width="80" height="80" rx="15" fill="#4a9d5e" stroke="#333" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="125" cy="75" r="8" fill="#fff"/>
+  <circle cx="155" cy="75" r="8" fill="#fff"/>
+  <circle cx="125" cy="75" r="4" fill="#000"/>
+  <circle cx="155" cy="75" r="4" fill="#000"/>
+  
+  <!-- AI circuit pattern -->
+  <path d="M110,100 L120,95 L130,100 L140,95 L150,100 L160,95 L170,100" 
+        stroke="#fff" stroke-width="2" fill="none"/>
+        
+  <!-- Antenna -->
+  <line x1="140" y1="50" x2="140" y2="30" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="25" r="5" fill="#ff6b6b"/>
+
+  <!-- Book element -->
+  <rect x="200" y="60" width="100" height="70" rx="5" fill="#4285f4" stroke="#333" stroke-width="2"/>
+  <rect x="205" y="65" width="90" height="60" fill="#f8f9fa" stroke="#333" stroke-width="1"/>
+  
+  <!-- Book pages -->
+  <line x1="205" y1="75" x2="295" y2="75" stroke="#ddd" stroke-width="1"/>
+  <line x1="205" y1="85" x2="295" y2="85" stroke="#ddd" stroke-width="1"/>
+  <line x1="205" y1="95" x2="295" y2="95" stroke="#ddd" stroke-width="1"/>
+  <line x1="205" y1="105" x2="295" y2="105" stroke="#ddd" stroke-width="1"/>
+  <line x1="205" y1="115" x2="295" y2="115" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Title on book -->
+  <text x="250" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">AI ROBOTICS</text>
+
+  <!-- Neural network nodes -->
+  <circle cx="80" cy="40" r="5" fill="#ff6b6b"/>
+  <circle cx="70" cy="70" r="5" fill="#ff6b6b"/>
+  <circle cx="90" cy="90" r="5" fill="#ff6b6b"/>
+  <circle cx="60" cy="110" r="5" fill="#ff6b6b"/>
+  
+  <!-- Connecting lines for neural network -->
+  <line x1="80" y1="40" x2="70" y2="70" stroke="#ff6b6b" stroke-width="1"/>
+  <line x1="70" y1="70" x2="90" y2="90" stroke="#ff6b6b" stroke-width="1"/>
+  <line x1="90" y1="90" x2="60" y2="110" stroke="#ff6b6b" stroke-width="1"/>
+  <line x1="80" y1="40" x2="90" y2="90" stroke="#ff6b6b" stroke-width="1"/>
+
+  <!-- Main title -->
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#202124">AI ROBOTICS BOOK</text>
+</svg>

@@ -1,43 +1,43 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/AI-Robotics-book/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/AI-Robotics-book/docs",
           "mainDocId": "capstone/index",
           "docs": [
             {
               "id": "capstone/index",
-              "path": "/docs/capstone/",
+              "path": "/AI-Robotics-book/docs/capstone/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/AI-Robotics-book/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1/index",
-              "path": "/docs/module-1/",
+              "path": "/AI-Robotics-book/docs/module-1/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2/index",
-              "path": "/docs/module-2/",
+              "path": "/AI-Robotics-book/docs/module-2/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3/index",
-              "path": "/docs/module-3/",
+              "path": "/AI-Robotics-book/docs/module-3/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4/index",
-              "path": "/docs/module-4/",
+              "path": "/AI-Robotics-book/docs/module-4/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -45,7 +45,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/capstone/",
+                "path": "/AI-Robotics-book/docs/capstone/",
                 "label": "Autonomous Humanoid Robot Capstone Project"
               }
             }
